@@ -115,6 +115,11 @@ main {
     gap: 2rem;
 }
 
+.main-contato{
+    margin-top: 6.69rem;
+    margin-bottom: 6.69rem;
+}
+
 /* Botão e formulário */
 form label {
     display: flex;
