@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Reset básico */
+body, h1, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral */
+body {
+    font-family: 'Host Grotesk';
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #203f5f;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight:500;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+header nav h1{
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header nav a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 2rem auto;
+    padding: 2.67rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-inicio, .main-historia, .main-importancia, .main-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-inicio h1, .main-historia h1, .main-importancia h1, .main-funcoes h1{
+    font-size: 2rem;
+    color:#1b1b17;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.main-inicio img, .main-importancia img{
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.main-inicio p, .main-historia p, .main-importancia p, .main-funcoes p{
+    text-align: justify;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.main-inicio a{
+    color: white;
+    border-radius: 8px;
+    background-color: #203f5f;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main-inicio a:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    transition: all 0.4s;
+}
+
+.main-funcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Botão e formulário */
+form label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 30rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #203f5f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1b1b17;
+    color: #ffffff;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #203f5f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
